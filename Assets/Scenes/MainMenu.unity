@@ -12475,6 +12475,31 @@ PrefabInstance:
       propertyPath: m_LinearDrag
       value: 0.01
       objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: AtomName
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: InitElectrons
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: charge
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: ThicknessMultiplier
+      value: 0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: ColliderRadiusMultiplier
+      value: 0.0001
+      objectReference: {fileID: 0}
     - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
       propertyPath: m_IsTrigger
@@ -12517,31 +12542,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 6e29afc848f7b7a418a17d82c7f9338b,
         type: 3}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: AtomName
-      value: Back
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: InitElectrons
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: charge
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: ThicknessMultiplier
-      value: 0.004
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: ColliderRadiusMultiplier
-      value: 0.0001
-      objectReference: {fileID: 0}
     - target: {fileID: 224310291391812800, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -16401,6 +16401,31 @@ PrefabInstance:
       propertyPath: m_LinearDrag
       value: 0.01
       objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: AtomName
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: InitElectrons
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: charge
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: ThicknessMultiplier
+      value: 0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: ColliderRadiusMultiplier
+      value: 0.0001
+      objectReference: {fileID: 0}
     - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
       propertyPath: m_IsTrigger
@@ -16436,31 +16461,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: AtomName
-      value: Back
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: InitElectrons
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: charge
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: ThicknessMultiplier
-      value: 0.004
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: ColliderRadiusMultiplier
-      value: 0.0001
       objectReference: {fileID: 0}
     - target: {fileID: 224310291391812800, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
@@ -18251,6 +18251,31 @@ PrefabInstance:
       propertyPath: m_LinearDrag
       value: 0.01
       objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: AtomName
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: InitElectrons
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: charge
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: ThicknessMultiplier
+      value: 0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: ColliderRadiusMultiplier
+      value: 0.0001
+      objectReference: {fileID: 0}
     - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
       propertyPath: m_IsTrigger
@@ -18286,31 +18311,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: AtomName
-      value: Back
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: InitElectrons
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: charge
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: ThicknessMultiplier
-      value: 0.004
-      objectReference: {fileID: 0}
-    - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: ColliderRadiusMultiplier
-      value: 0.0001
       objectReference: {fileID: 0}
     - target: {fileID: 224310291391812800, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
