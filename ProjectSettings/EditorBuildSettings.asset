@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/IconLevel.unity
+    guid: bdc40cf79e9fcff49a82be02a4204005
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: da50f2cf379df5d4987363986640d8fe
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-2.unity
+    guid: fdc637d4de6dc8448ae75e4ffb0afbfa
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Cov-X-Old.unity
+    guid: 50fd67eaca842b34f8b1eb973ae7d670
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-1.unity
+    guid: 90620abd28c4926409f9429c5412f9f3
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-3.unity
+    guid: 6b181a764bae0724a95d793a0f1384ad
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-21.unity
+    guid: 1956cb0bcc8357e498785e6c634a1834
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-22.unity
+    guid: f00ca3123cc25eb4dabf8e9055e06022
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-23.unity
+    guid: f1a588af84a68aa4e947e18c5ade2618
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-24.unity
+    guid: 1f058e197a108cf4da814cfe2ee8e05f
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-25.unity
+    guid: f6bdce5054131134eb03370bcbb84fa6
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-27.unity
+    guid: 3e55a6ad06eb18d4fa9ccc19d72b84b3
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-28.unity
+    guid: be2e5fd40fd44144695d56e8c51db320
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Mixed/Mixed-1.unity
+    guid: 1fb269efe2c22384fb12c9fbb9b4e004
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Mixed/Mixed-2.unity
+    guid: 85e7ca9c6cdde6445a5764d334fbaec1
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Mixed/Mixed-3.unity
+    guid: 8ef984581e74eec47bfe27a85f13bb75
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Mixed/Mixed-4.unity
+    guid: 7fd3af34306e47649bc30d8b35ba07de
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Mixed/Mixed-5.unity
+    guid: 37d9eacf2b62e00418e02b620188802b
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Mixed/Mixed-6.unity
+    guid: fc11dade0a3095547849460b58c76cfc
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Mixed/Mixed-7.unity
+    guid: 3bbd39157e4676c4b8cf2b009d77abfd
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Mixed/Mixed-8.unity
+    guid: fab365ca7bb04294aa8d9bb7835e4bc5
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Mixed/Mixed-9.unity
+    guid: 4017513516c4d0d43a5537d5edd674f0
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Mixed/Mixed-10.unity
+    guid: 9ad9b0bceb26c2b4d8d71b47c5e480a6
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-29.unity
+    guid: 19fa2c3ecf8683d47b50bad4e54ba116
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-30.unity
+    guid: 32208938809b71740afac8275230a5ed
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-31.unity
+    guid: afd34ad17fff9bb43b28d440f030713a
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-32.unity
+    guid: 65dc5790c2aaa8c4f8875812cfa98014
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-33.unity
+    guid: 9d2450a54617098419b9bcdf7cce05bc
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-34.unity
+    guid: cfadf1a29175b9f43b33195a7f218fa1
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-35.unity
+    guid: 60a4f4a34f13eba4eb1ac825e8790f73
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-36.unity
+    guid: a488dc162c2bdf84bacab9dfeff5365d
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-37.unity
+    guid: 77c8d1289d2ecce4f9def0b2b4208043
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-38.unity
+    guid: 0b29a8035a54d68448864a751faacfee
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-39.unity
+    guid: e06483a659176f941b351bde6e11659a
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-40.unity
+    guid: d87b4b48632f2e44d85407f1d04bdb1f
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-41.unity
+    guid: 73f635fdc36d17947b21f40239e22edc
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-42.unity
+    guid: 5dba1350d5d81e8418590049ff1aa657
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-43.unity
+    guid: 44d368d055176324fb6b5d7fda89867e
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-44.unity
+    guid: 33dfb1fc677be3c42afdbba14c8817f0
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-45.unity
+    guid: 609ccc3f4b9a8a74095d760d75067983
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-46.unity
+    guid: a74810e93ea5305448cfaab314d46622
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-47.unity
+    guid: b21813db7efbb9d4eaf68dd4c9a87003
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-48.unity
+    guid: efd4d649f109fd84c9efb06b8dd6c683
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-49.unity
+    guid: 0a4435921c5370541ac16f07edf90cb7
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-50.unity
+    guid: 132d09dd8ca18564e8ac41a1aa0711dd
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-51.unity
+    guid: 1656faddcc609d241ab23622d2802421
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-52.unity
+    guid: 8b96a0a0c5cad204388cf402653ac8ef
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-53.unity
+    guid: deaba98589840ab4cbd9c00789ccd7eb
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-54.unity
+    guid: 2b59d531e2b612f488d660b3fcb845e2
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-55.unity
+    guid: 41a8ebb9bde76004eb49af5b622e10c3
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-56.unity
+    guid: eae2f47e5ac73644a8fa6a32ca5a10e3
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-57.unity
+    guid: b6baf4df4df1db045bc3f2815c97418d
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-58.unity
+    guid: e3087495e5f32b642aec8cba1f6fdb99
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-59.unity
+    guid: 67df071ab5f52d447b88f38c85c73733
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-60.unity
+    guid: 537eb0c3931cb2247be629a533a83c66
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-61.unity
+    guid: eea276a6e2a32b341919e6d3d6acabe1
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-62.unity
+    guid: f333faea5e02f704dba30043221974b9
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-63.unity
+    guid: cb9c5c30639887847a1ec0826631a4b3
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-64.unity
+    guid: d430edc98ef093445a2695918bc383dd
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-65.unity
+    guid: 2399e88ac60929a458e8240e7683a0af
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-66.unity
+    guid: e652c03ce07b7434eac4b459486563cc
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-67.unity
+    guid: 2ad32f241bf14e2408aa456744e36437
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-68.unity
+    guid: 4df735a9d5d9309459c368af8a0e8238
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-69.unity
+    guid: a9567c4565af5b3438c916a9ae292993
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-70.unity
+    guid: 3a068a85b0fd67e4eb8ef8f3e266328f
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-71.unity
+    guid: 7907ac33a56547b47894ced71ae6b316
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-72.unity
+    guid: 08ae3f0498528004bba9114ba072e604
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-73.unity
+    guid: b7d56eb40c2323b4f89b463970d98577
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-74.unity
+    guid: 63bc21c4062c09749a830559809ac323
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-75.unity
+    guid: 69d247a1aa1892d4797ffe7340c2c794
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-76.unity
+    guid: 435b3e50db83d3f4ab0ce47eb2e31382
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-77.unity
+    guid: 4dc5ecab4e291fd4eaffbe520b9431d1
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-78.unity
+    guid: a0591e7f5f046484ab27671803fd4f74
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-79.unity
+    guid: c28e856153aada54a9cfa6159619a6ee
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-80.unity
+    guid: da0d339d923bf60439efb31ff45203bf
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-81.unity
+    guid: a7e24e1b84a875f4591854f07e5783c5
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-26.unity
+    guid: 297923fa2d7bc374088b5fdd5f2fe5cc
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-18.unity
+    guid: f5733183b481af3428e74a57e748b981
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-25.unity
+    guid: a0bf5cdd9d399e44bbeb64300ee056cb
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-4.unity
+    guid: 2891241fd7df8a4489fa959884860eca
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-1.unity
+    guid: 9ce320f8fd5e22144948dc40cff90878
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-2.unity
+    guid: faae194997dc5344396d475178b3a2af
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-3.unity
+    guid: 9edec4787fce6c749be65a3d30d33bc8
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-4.unity
+    guid: 289ee21a06216444c883e585e240bd13
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-5.unity
+    guid: 5d2956e79c78a444495f1e4d0ae7d837
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-6.unity
+    guid: 4409916cb7ad9f14aae9f104df4af161
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-7.unity
+    guid: 1a6e1e3a22b346e449948e9fa4d438be
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-8.unity
+    guid: c85db0b81f7196649b2dda82fa88c303
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-9.unity
+    guid: 3651ec32cc1f14644aa448c0a8f1b94a
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-10.unity
+    guid: a1dd7d065bc6eca42bfa3ba3c899a8be
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-11.unity
+    guid: a3273a64018dd9a448ba0c576f694df1
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-12.unity
+    guid: b4b14c5ee695adb45bfbcffe998134f9
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-13.unity
+    guid: 55c0f3971207ddf4498b88dae99106b0
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-14.unity
+    guid: 067c5921e69959b4c9d21d838928039a
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-15.unity
+    guid: 2996cfc1ffee7dc4dbcbd7aabeacb9a3
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-16.unity
+    guid: 6afd268ca4c20f14f87e469a65ca5cb6
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-17.unity
+    guid: 57ec58ebe48c870459fd0870d093852d
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-19.unity
+    guid: 40d1f4ce465c8b745bef49ed7a3e0eea
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Covalent/Covalent-20.unity
+    guid: 286f53ffd1b233343b0779ed8069aee1
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-20.unity
+    guid: e3834c0cc7cf94844911ed31683156c6
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-21.unity
+    guid: d657432a982735a4fb3c66c739c632ce
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-22.unity
+    guid: a63c73f4be70aa9488f26063d7d1eac9
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-23.unity
+    guid: 1c5f3ebcaf3c2f347a3fce5e64909fc3
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-24.unity
+    guid: e7e216a584d3c4e49989415ac39cc879
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-26.unity
+    guid: 9c4c3819d13ad364389b27a7de97b3eb
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-5.unity
+    guid: 74f2c18f3d43192439a9991bd56a3780
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-6.unity
+    guid: 5a00b94a95aba574c98e59352a3419d3
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-7.unity
+    guid: 4677d5ed6aad7634b8e215003251fad4
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-8.unity
+    guid: 69fc0b142f85ba44e82d9453ee2cb95a
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-9.unity
+    guid: 2d6cff583938e2743ba4315bdf30e4e4
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-10.unity
+    guid: 0cb5e85ad6cc3304ebfa9bf7899f5015
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-11.unity
+    guid: 3afa927281efbe041a1e5705caef2402
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-12.unity
+    guid: 77af302a7f424e14b9d53256e1b3378b
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-13.unity
+    guid: e6a8234ff9a5e704d96baa64c4e2e98c
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-14.unity
+    guid: 948eff3c0d000574d8dae0b2717ee91e
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-15.unity
+    guid: 482c4f4d472119346a322de6a836c816
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-16.unity
+    guid: ef945e772f7e06c48aec86590b643e81
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-17.unity
+    guid: 2fe90f65b2c45c446889d87f2ae3e24a
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-18.unity
+    guid: 581056a511997d24c9bbee109e65d294
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Ionic/Ionic-19.unity
+    guid: c01762efb6a9e9a46a587b4373d0ac95
+  m_configObjects: {}
