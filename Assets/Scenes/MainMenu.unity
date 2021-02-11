@@ -3864,11 +3864,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_LinearDrag
-      value: 0.01
-      objectReference: {fileID: 0}
     - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
       propertyPath: AtomName
@@ -3883,6 +3878,11 @@ PrefabInstance:
         type: 3}
       propertyPath: canGiveElectron
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 882e381ac53bfe045a16e5b3e6a91582, type: 3}
@@ -12470,11 +12470,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_LinearDrag
-      value: 0.01
-      objectReference: {fileID: 0}
     - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
       propertyPath: AtomName
@@ -12500,48 +12495,6 @@ PrefabInstance:
       propertyPath: ColliderRadiusMultiplier
       value: 0.0001
       objectReference: {fileID: 0}
-    - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.0001
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Text
-      value: Back
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.972549
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.88235295
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: fc24e0c3b6f7abd4cbb8b63570586ed9,
-        type: 3}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 114575589954504808, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 6e29afc848f7b7a418a17d82c7f9338b,
-        type: 3}
     - target: {fileID: 224310291391812800, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -12571,6 +12524,53 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 114575589954504808, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 6e29afc848f7b7a418a17d82c7f9338b,
+        type: 3}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Text
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.972549
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.88235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: fc24e0c3b6f7abd4cbb8b63570586ed9,
+        type: 3}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 270
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 882e381ac53bfe045a16e5b3e6a91582, type: 3}
@@ -15926,11 +15926,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.8
       objectReference: {fileID: 0}
-    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_LinearDrag
-      value: 0.01
-      objectReference: {fileID: 0}
     - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
       propertyPath: AtomName
@@ -15970,6 +15965,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 882e381ac53bfe045a16e5b3e6a91582, type: 3}
@@ -16396,11 +16396,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_LinearDrag
-      value: 0.01
-      objectReference: {fileID: 0}
     - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
       propertyPath: AtomName
@@ -16425,42 +16420,6 @@ PrefabInstance:
         type: 3}
       propertyPath: ColliderRadiusMultiplier
       value: 0.0001
-      objectReference: {fileID: 0}
-    - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.0001
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Text
-      value: Back
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.972549
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.88235295
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: fc24e0c3b6f7abd4cbb8b63570586ed9,
-        type: 3}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: 224310291391812800, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
@@ -16491,6 +16450,47 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Text
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.972549
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.88235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: fc24e0c3b6f7abd4cbb8b63570586ed9,
+        type: 3}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 270
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 882e381ac53bfe045a16e5b3e6a91582, type: 3}
@@ -18246,11 +18246,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_LinearDrag
-      value: 0.01
-      objectReference: {fileID: 0}
     - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
       propertyPath: AtomName
@@ -18275,42 +18270,6 @@ PrefabInstance:
         type: 3}
       propertyPath: ColliderRadiusMultiplier
       value: 0.0001
-      objectReference: {fileID: 0}
-    - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.0001
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Text
-      value: Back
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.972549
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.88235295
-      objectReference: {fileID: 0}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: fc24e0c3b6f7abd4cbb8b63570586ed9,
-        type: 3}
-    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: 224310291391812800, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
@@ -18341,6 +18300,47 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 58060479706781426, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Text
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.972549
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.88235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: fc24e0c3b6f7abd4cbb8b63570586ed9,
+        type: 3}
+    - target: {fileID: 114526073816931290, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 270
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 882e381ac53bfe045a16e5b3e6a91582, type: 3}
@@ -24883,16 +24883,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_LinearDrag
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
-        type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
       propertyPath: AtomName
@@ -24906,6 +24896,16 @@ PrefabInstance:
     - target: {fileID: 114688198553195756, guid: 882e381ac53bfe045a16e5b3e6a91582,
         type: 3}
       propertyPath: zeroElectronGenerosity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 50797583741528414, guid: 882e381ac53bfe045a16e5b3e6a91582,
+        type: 3}
+      propertyPath: m_Mass
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

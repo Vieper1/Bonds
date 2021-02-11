@@ -13,9 +13,9 @@ public class GameOverPanel : MonoBehaviour {
 	public void HomeButtonClicked() {
 		SceneManager.LoadScene("MainMenu");
 	}
-	public void AdButtonClicked() {
-		Application.OpenURL("market://details?id=com.vishanstudios.colorshifter2d");
-	}
+	//public void AdButtonClicked() {
+	//	Application.OpenURL("market://details?id=com.vishanstudios.colorshifter2d");
+	//}
 
 	public void NextButtonClicked() {
 		string sceneName = SceneManager.GetActiveScene().name;

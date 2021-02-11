@@ -54,7 +54,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1112526376460530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -63,8 +63,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4603bded1ae9adc4bba1fee93954be77, type: 3}
     m_FontSize: 150
@@ -133,7 +131,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1670807437409028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -142,8 +140,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4bf2f5a0ac8737e49b8f20f05972cac5, type: 3}
     m_FontSize: 270
@@ -220,6 +216,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -255,8 +252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa0754ec1ee661944959527120b0a8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AtomName: H
-  InitElectrons: 1
+  AtomName: 
+  InitElectrons: 0
   zeroElectronGenerosity: 0
   octetException: 0
   Orbit1:
@@ -272,6 +269,16 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   Orbit3:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -320,7 +327,7 @@ MonoBehaviour:
   BoundTo: []
   charge: 0
   timeStep: 0
-  col2d: {fileID: 0}
+  col2d: {fileID: 58060479706781426}
   ColliderRadiusMultiplier: 56
   ThicknessMultiplier: 0.004
 --- !u!58 &58060479706781426
