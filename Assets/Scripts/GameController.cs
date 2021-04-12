@@ -48,7 +48,7 @@ public class GameController : MonoBehaviour {
 
 	// Miscellaneous
 	public bool isIntro;
-
+	public AudioClip clip;
 
 
 
@@ -576,8 +576,16 @@ public class GameController : MonoBehaviour {
 	}
 	bool isBackPressed;
 	public void HomeButtonPressed() {
+		StartCoroutine(HomeButton());
+	}
+
+	IEnumerator HomeButton()
+	{
+		AudioSource.PlayClipAtPoint(clip, Camera.main.transform.position);
+		yield return new WaitForSeconds(clip.length);
 		SceneManager.LoadSceneAsync("MainMenu");
 	}
+
 	IEnumerator HomePressedCoroutine() {
 		isBackPressed = true;
 		SSTools.ShowMessage("Press again to exit!", SSTools.Position.bottom, SSTools.Time.oneSecond);
@@ -585,11 +593,18 @@ public class GameController : MonoBehaviour {
 		isBackPressed = false;
 	}
 	public void RetryButtonPressed() {
+		StartCoroutine(RetryButton());
+	}
+	IEnumerator RetryButton()
+	{
+		AudioSource.PlayClipAtPoint(clip, Camera.main.transform.position);
+		yield return new WaitForSeconds(clip.length);
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 	public void HintButtonPressed() {
 		Animator hintAnim = transform.Find("HintPanel/HintContainer").GetComponent<Animator>();
 		hintAnim.SetBool("isActive", !hintAnim.GetBool("isActive"));
+		AudioSource.PlayClipAtPoint(clip, Camera.main.transform.position);
 	}
 	public void HintCloseButtonPressed() {
 		Animator hintAnim = transform.Find("HintPanel/HintContainer").GetComponent<Animator>();

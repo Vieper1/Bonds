@@ -9,6 +9,7 @@ public class LevelButton : MonoBehaviour {
 	public int Level;
 	public bool ForceUnlock;
 	public string LevelType;
+	public AudioSource src;
 
 	void Start() {
 		string levelData = PlayerPrefs.GetString("Levels/" + LevelType + "-" + Level, "");
@@ -89,6 +90,13 @@ public class LevelButton : MonoBehaviour {
 	}
 
 	public void OnCustomButtonPressed() {
+		StartCoroutine(LoadLevel());
+	}
+
+	IEnumerator LoadLevel()
+	{
+		src.PlayOneShot(src.clip);
+		yield return new WaitForSeconds(src.clip.length - 1.0f);
 		SceneManager.LoadScene(LevelsList.LevelType + "-" + Level);
 	}
 

@@ -1645,6 +1645,7 @@ MonoBehaviour:
   GameTime: 0
   isGameOver: 0
   isIntro: 0
+  clip: {fileID: 8300000, guid: a177eaae784e07343a30c3bfde64040e, type: 3}
 --- !u!1 &861314668
 GameObject:
   m_ObjectHideFlags: 0
@@ -3787,6 +3788,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 852823679}
     m_Modifications:
+    - target: {fileID: 7028079927711667004, guid: c57585fc90074754c91e343c45a1c9bb,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3093746828078353569, guid: c57585fc90074754c91e343c45a1c9bb,
         type: 3}
       propertyPath: m_Name
@@ -3896,11 +3902,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7028079927711667004, guid: c57585fc90074754c91e343c45a1c9bb,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c57585fc90074754c91e343c45a1c9bb, type: 3}

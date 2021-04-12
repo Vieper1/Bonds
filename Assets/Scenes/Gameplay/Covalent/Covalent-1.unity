@@ -1451,6 +1451,7 @@ MonoBehaviour:
   GameTime: 0
   isGameOver: 0
   isIntro: 0
+  clip: {fileID: 8300000, guid: a177eaae784e07343a30c3bfde64040e, type: 3}
 --- !u!1 &861314668
 GameObject:
   m_ObjectHideFlags: 0

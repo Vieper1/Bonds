@@ -19,7 +19,7 @@ public class MainMenu : MonoBehaviour {
 
 	private Animator anim;
 	public static bool isSplashDirty;
-
+	[SerializeField] AudioSource source;
 	
 
 
@@ -59,11 +59,24 @@ public class MainMenu : MonoBehaviour {
 
 	public void MenuStateChange(int value) {
 		anim.SetInteger("MenuState", value);
+		//AudioSource.PlayClipAtPoint(clip, mainCam.transform.position);
+		PlaySound();
 	}
 	public int GetMenuState() {
 		return anim.GetInteger("MenuState");
 	}
 	public void MenuLevelState() {
 		anim.SetInteger("MenuState", 3);
+		PlaySound();
+	}
+
+	public void PlaySound()
+	{
+		source.PlayOneShot(source.clip);
+	}
+
+	public AudioSource Source()
+	{
+		return source;
 	}
 }

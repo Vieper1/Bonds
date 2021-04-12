@@ -5,7 +5,11 @@ using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.UI;
 
 public class Settings : MonoBehaviour {
-	
+
+	public MainMenu main;
+	public Camera mainCam;
+	public AudioSource src;
+
 	void Start () {
 		if (PlayerPrefs.GetInt("MusicEnabled", 1) == 0) {
 			transform.Find("MusicButton/Text").GetComponent<Text>().text = "Music: OFF";
@@ -40,5 +44,7 @@ public class Settings : MonoBehaviour {
 			GameObject.Find("Main Camera").GetComponent<PostProcessLayer>().antialiasingMode = PostProcessLayer.Antialiasing.FastApproximateAntialiasing;
 			GameObject.Find("Main Camera").GetComponent<PostProcessLayer>().fastApproximateAntialiasing.fastMode = true;
 		}
+		//mainCam..PlayOneShot(main.Source().clip);
+		src.PlayOneShot(src.clip);
 	}
 }
